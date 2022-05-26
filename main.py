@@ -2,7 +2,7 @@ import random
 import json
 
 
-def intro():
+def intro():  # Mensagem inicial
     grid = ('\033[1;34m*\033[m' * 82)
     print(f'{grid}')
     print('{:^92}'.format('\033[1;32mBEM VINDO AO QUIZ DE CENTAVOS!\033[m'))
@@ -20,33 +20,33 @@ def intro():
     print(f'{grid}')
 
 
-def lista_questoes():
+def lista_questoes():  # Abre o arquivo do questionário.
     with open('questionario.json', 'r', encoding='utf-8') as arquivo:
         questionario = json.load(arquivo)
     return questionario["questionario"]
 
 
-def lista_jogadores():
+def lista_jogadores():  # Abre o arquivo de jogadores
     with open('jogadores.json', 'r', encoding='utf-8') as arquivo:
         jogadores = json.load(arquivo)
         return jogadores
 
 
-def add_jogadores(nome, pontos):
+def add_jogadores(nome, pontos):  # Adiciona jogadores no arquivo JSON usado no ranking.
     jogador = lista_jogadores()
-    jogador["jogadores"] += [{"nome":nome, "pontos":pontos}]
+    jogador["jogadores"] += [{"nome": nome, "pontos": pontos}]
     with open('jogadores.json', 'w', encoding='utf-8') as arquivo:
         json.dump(jogador, arquivo, indent=4)
 
 
-def question(id):
+def question(id):  # Liga o id das questões a um parametro (id).
     questoes = lista_questoes()
     for questao in questoes:
         if questao["id"] == id:
             return questao
 
 
-def ranking():
+def ranking():  # Mostra os jogadores no sistema
     jogares = lista_jogadores()
     print('-----------------------------RANKING-----------------------------')
     for player in jogares["jogadores"]:
@@ -55,15 +55,15 @@ def ranking():
     print('-----------------------------------------------------------------')
 
 
-def main():
+def main():  # Corpo principal do programa
     while True:
         intro()
-        pontos = 0
-        correct = 0
+        pontos = 0  # Variável que guarda os pontos.
+        correct = 0  # Variável que guarda o número de questões acertadas.
         nome = input('Digite seu nome: ')
         for contador in range(5):
-            idx = random.randint(1, 24)
-            question_random = question(idx)
+            idx = random.randint(1, 24)  # Parâmetro aleatório entre 1 e 24.
+            question_random = question(idx)  # Instanciando a função question(id).
 
             print('-----------------------------QUIZ-----------------------------')
             print(f'•\033[1;31m {question_random["question"]}\033[m \n')
@@ -76,17 +76,18 @@ def main():
 
             user_answer = input('Escolha uma das alternativas: ')
             resp = user_answer.upper()
-            if resp == question_random["answer"]:
+            if resp == question_random["answer"]:  # Para cada resposta certa encremento os pontos e acertos.
                 pontos += question_random["points"]
                 correct += 1
                 print('Resposta Correta [✓]')
             else:
                 print(f'Resosta Incorreta [×] | A resposta correta era: {question_random["answer"]}')
+
         print('--------------------------------------------------------------')
-        add_jogadores(nome=nome, pontos=pontos)
+        add_jogadores(nome=nome, pontos=pontos)  # Adicionando jogadores no arquivo usando nome e pontos como parâmetro.
         print(f'Obrigado por jogar o nosso Quiz {nome}, você acertou {correct} perguntas e recebeu {pontos} pontos.')
         print('--------------------------------------------------------------')
-        ranking()
+        ranking()  # Mostra lista de jogadores e suas pontuações. (Não consegui colocar em ordem crescente)
 
 
 main()

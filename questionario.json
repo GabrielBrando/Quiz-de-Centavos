@@ -1,0 +1,268 @@
+{
+        "questionario": [
+          {
+            "id": 1,
+            "question": "Qual o nome do inseto que causa a doença de Chagas?",
+            "A": "Barbeiro",
+            "B": "Mosca" ,
+            "C": "Carrapato",
+            "D": "Pulga",
+            "answer": "A",
+            "level": "Fácil",
+            "points": 50
+          },
+          {
+            "id": 2,
+            "question": "Qual é o nome da capital da Russia?",
+            "A": "Moscou",
+            "B": "São Petersburgo",
+            "C": "Kiev",
+            "D": "Kazan",
+            "answer": "A",
+            "level": "Fácil",
+            "points": 50
+          },
+          {
+            "id": 3,
+            "question": "Qual a cor que obtemos quando misturamos Azul e Vermelho?",
+            "A": "Azul",
+            "B": "Vermelho",
+            "C": "Roxo",
+            "D": "Marrom",
+            "answer": "C",
+            "level": "Fácil",
+            "points": 50
+          },
+          {
+            "id": 4,
+            "question": "O que é medido por um termômetro?",
+            "A": "Altura",
+            "B": "Distancia",
+            "C": "Temperatura",
+            "D": "Velocidade",
+            "answer": "C",
+            "level": "Fácil",
+            "points": 50
+          },
+          {
+            "id": 5,
+            "question": "Qual é o nome do cachorro medroso do Salsicha, dos desenhos animados?",
+            "A": "Totó",
+            "B": "Scooby",
+            "C": "Rex",
+            "D": "Marley",
+            "answer": "B",
+            "level": "Fácil",
+            "points": 50
+          },
+          {
+            "id": 6,
+            "question": "Qual personagem da turma da Mônica tem apenas cinco fios de cabelo?",
+            "A": "Cebolinha",
+            "B": "Cascão",
+            "C": "Chico Bento",
+            "D": "Xaveco",
+            "answer": "A",
+            "level": "Fácil",
+            "points": 50
+          },
+          {
+            "id": 7,
+            "question": "Quem foi o grande amor de Julieta?",
+            "A": "Ricardo",
+            "B": "Ramos",
+            "C": "Robert",
+            "D": "Romeu",
+            "answer": "D",
+            "level": "Fácil",
+            "points": 50
+          },
+          {
+            "id": 8,
+            "question": "Qual é o personagem do folclore brasileiro que tem uma perna só?",
+            "A": "Curupira",
+            "B": "Cabra Cega",
+            "C": "Yara",
+            "D": "Saci Pererê",
+            "answer": "D",
+            "level": "Fácil",
+            "points": 50
+          },
+          {
+            "id": 9,
+            "question": "Se a 10 Anos atrás a Irmã de Ana tinha o dobro da idade de Ana. Hoje em dia Ana tem 16, quantos anos tem a irmã de Ana?",
+            "A": "Oito",
+            "B": "Quatorze",
+            "C": "Dezesseis",
+            "D": "Vinte Dois",
+            "answer": "D",
+            "level": "Médio",
+            "points": 100
+          },
+          {
+            "id": 10,
+            "question":"Qual a cor da caixa preta dos aviões?",
+            "A": "Laranja",
+            "B": "Vermelha",
+            "C": "Azul",
+            "D": "Preta",
+            "answer": "D",
+            "level": "Médio",
+            "points": 100
+          },
+          {
+            "id": 11,
+            "question": "Se, durante uma corrida de carros, você deixa o segundo colocado pra trás, qual é a sua colocação após a ultrapassagem?",
+            "A": "Primeiro",
+            "B": "Segundo",
+            "C": "Terceiro",
+            "D": "Quarto",
+            "answer": "B",
+            "level": "Médio",
+            "points": 100
+          },
+          {
+            "id": 12,
+            "question": "Se uma borboleta vive cinco dias e a cada dia ela voa quatro metros, quantos metros ela terá percorrido em uma semana?",
+            "A": "Doze",
+            "B": "Vinte",
+            "C": "Vinte-Quatro",
+            "D": "Vinte-Oito",
+            "answer": "B",
+            "level": "Médio",
+            "points": 100
+          },
+          {
+            "id": 13,
+            "question": "Em uma sala quadrada, temos um gato em cada canto. Cada gato vê outros três gatos. Quantos gatos há no total dentro da sala?",
+            "A": "Três",
+            "B": "Quatro",
+            "C": "Cinco",
+            "D": "Seis",
+            "answer": "B",
+            "level": "Médio",
+            "points": 100
+          },
+          {
+            "id": 14,
+            "question": "Alguns meses têm 30 dias, outros 31. Qual mês tem 28 dias?",
+            "A": "Fevereiro",
+            "B": "Setembro",
+            "C": "Junho",
+            "D": "Todos os mêses",
+            "answer": "D",
+            "level": "Médio",
+            "points": 100
+          },
+          {
+            "id": 15,
+            "question": "Um trem elétrico viaja de Madri a Barcelona, para onde vai a fumaça do trem?",
+            "A": "Madri",
+            "B": "Barcelona",
+            "C": "Sevilla",
+            "D": "Não foi para lugar nenhum",
+            "answer": "D",
+            "level": "Médio",
+            "points": 100
+          },
+          {
+            "id": 16,
+            "question": "Se Maria fala mais alto do que Carmen e Lola fala mais alto do que Carmen, Maria fala mais alto ou mais baixo do que Lola?",
+            "A": "Maria fala mais baixo que Lola",
+            "B": "Lola e Carmem falam mais alto que Maria",
+            "C": "Carmem fala mais alto que Maria",
+            "D": "Lola na mesma altura que Maria",
+            "answer": "A",
+            "level": "Difícil",
+            "points": 150
+          },
+          {
+            "id": 17,
+            "question":"Numa fileira de quatro casas, os Silvas moram ao lado dos Pereiras, mas não ao lado do Fernandes. Se os Pereiras não moram perto dos Gonçalves ... quem são os vizinhos imediatos dos Gonçalves?",
+            "A": "Os Silvas",
+            "B": "Os Pereiras",
+            "C": "Os Gonçalves",
+            "D": "Os Fernandes",
+            "answer": "A",
+            "level": "Difícil",
+            "points": 150
+          },
+          {
+            "id": 18,
+            "question": "O nível de água em um reservatório está muito baixo, mas dobra a cada dia. No total, leva 60 dias para preencher. Quanto tempo leva para chegar à metade?",
+            "A": "Cinco Dias",
+            "B": "Quinze Dias",
+            "C": "Trinta Dias",
+            "D": "Cinquenta-nove Dias",
+            "answer": "D",
+            "level": "Difícil",
+            "points": 150
+          },
+          {
+            "id": 19,
+            "question": "Uma mãe tem 40 anos e o filho 10. Quantos anos devem se passar para que a idade da mãe seja três vezes maior que a do filho?",
+            "A": "5 anos",
+            "B": "10 anos",
+            "C": "12 anos",
+            "D": "15 anos",
+            "answer": "A",
+            "level": "Difícil",
+            "points": 150
+          },
+          {
+            "id": 20,
+            "question": "Você dirige um ônibus para 18 pessoas. Na próxima parada 5 desça, mas pegue outro 13. Ao chegar na próxima estação, desça 21 e embarque 4. Quantas pessoas restam no ônibus?",
+            "A": "7 pessoas",
+            "B": "8 pessoas",
+            "C": "9 pessoas",
+            "D": "10 pessoas",
+            "answer": "C",
+            "level": "Difícil",
+            "points": 150
+          },
+          {
+            "id": 21,
+            "question": "Um homem come um leitão em um minuto e meio. Quantos homens são necessários para comer 60 leitões em meia hora?",
+            "A": "2 homens",
+            "B": "3 homens",
+            "C": "4 homens",
+            "D": "5 homens",
+            "answer": "B",
+            "level": "Difícil",
+            "points": 150
+          },
+          {
+            "id": 22,
+            "question":"Eu estava caminhando na praia e encontrei 20 quiosques ao longo da margem direita. No regresso, contei 20 quiosques à esquerda. Quantos quiosques esse caminho tem no total?",
+            "A": "10",
+            "B": "20",
+            "C": "40",
+            "D": "Nenhum",
+            "answer": "B",
+            "level": "Difícil",
+            "points": 150
+          },
+          {
+            "id": 23,
+            "question":"Existem 3 caixas de tamanho igual. Dentro de cada uma das três caixas existem duas menores e em cada uma delas existem quatro ainda menores. Quantas caixas há no total?",
+            "A": "30 caixas",
+            "B": "33 caixas",
+            "C": "36 caixas",
+            "D": "39 caixas",
+            "answer": "B",
+            "level": "Difícil",
+            "points": 150
+          },
+          {
+            "id": 24,
+            "question": "Quantos quartos são seis metades?",
+            "A": "6",
+            "B": "8",
+            "C": "10",
+            "D": "12",
+            "answer": "D",
+            "level": "Difícil",
+            "points": 150
+          }
+        ]
+}

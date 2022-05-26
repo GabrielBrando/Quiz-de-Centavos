@@ -1,0 +1,12 @@
+{
+    "jogadores": [
+        {
+            "nome": "Gabriel",
+            "pontos": 750
+        },
+        {
+            "nome": "Teste",
+            "pontos": 600
+        }
+    ]
+}
